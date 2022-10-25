@@ -2,7 +2,8 @@
 
 int main(void) {
 
-  strings();
+  // strings();
+  // structs();
 
   return 0;
 }
