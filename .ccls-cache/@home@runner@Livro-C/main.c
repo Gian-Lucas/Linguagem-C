@@ -4,7 +4,8 @@ int main(void) {
 
   // strings();
   // structs();
-  ponteiros();
-
+  // ponteiros();
+  // alloc();
+  
   return 0;
 }
