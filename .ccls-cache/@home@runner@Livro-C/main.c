@@ -6,6 +6,9 @@ int main(void) {
   // structs();
   // ponteiros();
   // alloc();
+  // lista01();
+  // lista02();
+  // lista03();
   
   return 0;
 }
