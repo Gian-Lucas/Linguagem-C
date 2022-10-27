@@ -9,6 +9,7 @@ int main(void) {
   // lista01();
   // lista02();
   // lista03();
+  lista04();
   
   return 0;
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-float *separaNotasBaixas(float notas[], int quantNotas, int *quantNotasBaixas) {
+float *notasBaixas(float notas[], int quantNotas, int *quantNotasBaixas) {
   float *notasBaixas = (float *)malloc(*quantNotasBaixas * sizeof(float));
 
   int i, notasBaixasIndex = 0;
@@ -21,7 +21,7 @@ void lista03() {
   int quantNotasBaixas = 5;
   int *pBaixas = &quantNotasBaixas;
 
-  float *notasBaixasTurma = separaNotasBaixas(notasDaTurma, 10, pBaixas);
+  float *notasBaixasTurma = notasBaixas(notasDaTurma, 10, pBaixas);
 
   int i;
   for(i = 0; i < *pBaixas; i++) {
